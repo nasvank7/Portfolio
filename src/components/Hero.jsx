@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/assets/kevinRushProfile.png";
+import profilePic from "../assets/assets/nasvanPersonal.jpg";
 import { motion } from "framer-motion";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -45,6 +45,9 @@ const Hero = () => {
             <motion.img initial={{x:100,opacity:0}}
             animate={{x:0,opacity:1}}
             transition={{duration:1,delay:1.2}}
+            height={500}
+            width={500}
+            className="rounded"
             src={profilePic} alt="Nasvan" />
           </div>
         </div>
