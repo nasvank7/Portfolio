@@ -20,18 +20,16 @@ const Navbar = () => {
         </a>
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/nasvank7" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/nasvan-k-671771261/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://instagram.com/your-instagram-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/_nasvan_k/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </a>
-        <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer">
-          <FaSquareXTwitter />
-        </a>
+      
       </div>
     </nav>
   );
