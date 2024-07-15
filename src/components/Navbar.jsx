@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from '../assets/assets/Nasvan-K.pdf';
+import Resume from '../assets/assets/Nasvan-Portfolio.pdf';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
@@ -12,7 +12,7 @@ const Navbar = () => {
         <a 
           className="mx-2 max-w-[150px] bg-blue-950 rounded-sm p-2 cursor-pointer" 
           href={Resume} 
-          download="Nasvan-K.pdf"
+          download="Nasvan-Portfolio.pdf"
           target="_blank"
           rel="noopener noreferrer"
         >
